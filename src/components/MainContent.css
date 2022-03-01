@@ -31,9 +31,14 @@ h2 {
 }
 
 ul li {
-  list-style-image: url(../bullet.png);
+  /* list-style-image: url(../bullet.png); */
   margin-bottom: 50px;
   font-size: 24px;
+}
+
+li::marker {
+  font-size: 2rem;
+  color: #61DAFB;
 }
 
 img.side-logo {
